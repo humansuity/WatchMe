@@ -1,7 +1,8 @@
-package com.humansuit.watchme
+package com.humansuit.watchme.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.humansuit.watchme.R
 
 class MainActivity : AppCompatActivity() {
 
