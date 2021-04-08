@@ -1,4 +1,4 @@
-package com.humansuit.watchme.ui.home
+package com.humansuit.watchme.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
