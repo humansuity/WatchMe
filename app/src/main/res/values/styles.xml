@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MaterialComponents.Toolbar.MainToolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="titleTextColor">@color/colorSurfaceHighLight</item>
+    </style>
+
+</resources>

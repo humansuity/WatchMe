@@ -51,10 +51,7 @@ dependencies {
     implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.4.4'
 
     /* COROUTINES */
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
-
-    /* FLOW */
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 
     /* FRAGMENT */
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
@@ -68,6 +65,9 @@ dependencies {
     /* NAVIGATION COMPONENTS */
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    /* COORDINATOR LAYOUT */
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$coordinatorlayout_version"
 
 
 
