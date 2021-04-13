@@ -1,4 +1,4 @@
-package com.humansuit.watchme.ui.home
+package com.humansuit.watchme.ui.library
 
 import android.os.Bundle
 import android.view.View
@@ -7,7 +7,7 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.humansuit.watchme.R
 import com.humansuit.watchme.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment(R.layout.fragment_home) {
+class LibraryFragment : Fragment(R.layout.fragment_library) {
 
     private val viewBinding: FragmentHomeBinding by viewBinding()
 
