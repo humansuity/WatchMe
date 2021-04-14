@@ -3,11 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/homeFragmentDestination">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.humansuit.watchme.ui.library.HomeFragment"
+        android:id="@+id/homeFragmentDestination"
+        android:name="com.humansuit.watchme.ui.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/libraryFragmentDestination"
+        android:name="com.humansuit.watchme.ui.library.LibraryFragment"
+        android:label="LibraryFragment"
+        tools:layout="@layout/fragment_library"/>
+    <fragment
+        android:id="@+id/inTheatresFragmentDestination"
+        android:name="com.humansuit.watchme.ui.in_theatres.InTheatresFragment"
+        android:label="InTheatresFragment"
+        tools:layout="@layout/fragment_in_theatres"/>
+    <fragment
+        android:id="@+id/accountFragmentDestination"
+        android:name="com.humansuit.watchme.ui.account.AccountFragment"
+        android:label="AccountFragment"
+        tools:layout="@layout/fragment_account"/>
 </navigation>
